@@ -1,0 +1,96 @@
+body {
+    background-repeat: no-repeat;
+    background-image: url("fundo1.png");
+}
+
+#principal {
+    width: 60%;
+    /* border: 1px solid red; */
+    position: relative;
+    left: 5%;
+}
+
+.linha {
+    width: 105%;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #0d0b0b;
+    border-bottom: 2px solid #727a95;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: black;
+    font-size: 5rem;
+    text-shadow: 5px 2px 4px rgba(0, 0, 0, 0.5);
+    border-bottom: 5px solid #000000;
+    padding-bottom: 5Spx;
+    display: inline-block;
+    margin: 10px;
+    left: 33%;
+    position: relative;
+}
+
+h1 {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.item-img {
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1s);
+
+}
+
+.btn-home {
+    padding: 10px 20px;
+    font-size: 25px;
+    color: black;
+    display: flex;
+    font-family: serif;
+    text-decoration: none;
+    bottom: 5px;
+    position: absolute;
+}
+
+.fa,.fas {
+    margin-right: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    font-family: "Libre Baskerville";
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    margin-bottom: 2px;
+    border-radius: 20px;
+    background-color: #c1945d;
+    transition: background-color 0.3s ease;
+}

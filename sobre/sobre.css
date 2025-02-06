@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+html {
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("café.a.png");
+    color: #444;
+}
+
+h1 {
+    color: black;
+    font-size: 5rem;
+    text-shadow: 5px 2px 4px rgba(0, 0, 0, 0.5);
+    border-bottom: 5px solid #000000;
+    padding-bottom: 5Spx;
+    display: inline-block;
+    margin: 10px;
+}
+
+.sobre {
+    text-align: center;
+}
+
+h1 {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+#cafe {
+
+    color: white;
+    border-radius: 30px;
+    background-color: #ca7e1dcc;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    font-family: "Bree Serif", serif;
+    font-size: 25px;
+    /* line-height: 1.4; */
+    height: 80%;
+    margin: 80px;
+
+
+}
+
+#cafe-pai {
+    display: flex;
+    justify-content: center;
+    height: 80%;
+}
+
+p {
+    text-align: -webkit-center;
+    margin-bottom: 2rem;
+
+}
+
+.btn-home {
+    padding: 10px 20px;
+    font-size: 25px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-family: serif;
+    text-decoration: none;
+}
+
+    .fa,.fas {
+        margin-right: 15px;
+    }
